@@ -11,12 +11,12 @@ function ComingSoon () {
                     <div className="col-md-9 col-lg-8">
                         <div className="soon-content text-center">
                             <div className="soon-content-wrapper">
-                                <img src="images/vio-logo.png" alt="Logo" className="soon-logo mx-auto" style={{width:'100px'}}/>
+                                <img src="images/vio-logo.png" alt="Logo" className="soon-logo mx-auto" style={{width:'180px'}}/>
 
                                 <h1 className="soon-title">Coming Soon</h1>
 
                                 <div className="coming-countdown countdown-separator">
-                                    <Countdown date={ `2022-09-01T01:02:03` } renderer={ rendererOne } />
+                                    <Countdown date={ `2022-05-02T01:02:03` } renderer={ rendererOne } />
                                 </div>
 
                                 <hr className="mt-2 mb-3 mt-md-3" />
@@ -38,10 +38,10 @@ function ComingSoon () {
 
                                 <div className="social-icons justify-content-center mb-0">
                                     <ALink href="https://www.facebook.com/violetteuk" className="social-icon" title="Facebook"><i className="icon-facebook-f"></i></ALink>
-                                    {/* <ALink href="#" className="social-icon" title="Twitter"><i className="icon-twitter"></i></ALink>
-                                    <ALink href="#" className="social-icon" title="Instagram"><i className="icon-instagram"></i></ALink>
-                                    <ALink href="#" className="social-icon" title="Youtube"><i className="icon-youtube"></i></ALink>
-                                    <ALink href="#" className="social-icon" title="Pinterest"><i className="icon-pinterest"></i></ALink> */}
+                                     {/* <ALink href="#" className="social-icon" title="Twitter"><i className="icon-twitter"></i></ALink> */}
+                                    <ALink href="https://www.instagram.com/violette_uk/?hl=en" className="social-icon" title="Instagram"><i className="icon-instagram"></i></ALink>
+                                    {/* <ALink href="#" className="social-icon" title="Youtube"><i className="icon-youtube"></i></ALink> */}
+                                    <ALink href="https://www.pinterest.co.uk/violettestoreuk/_created/" className="social-icon" title="Pinterest"><i className="icon-pinterest"></i></ALink> 
                                 </div>
                             </div>
                         </div>
