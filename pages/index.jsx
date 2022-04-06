@@ -229,7 +229,7 @@ function Home () {
     return (
         <>
             <Head>
-                <title>Molla –  eCommerce React Template Home Page</title>
+                <title>Violette Store</title>
             </Head>
             <div className="main home-page">
                 <IntroSlider />
@@ -452,8 +452,8 @@ function Home () {
                         </div>
                         : ""
                 }
-
-                <NewsletterModal />
+                 
+                {/* <NewsletterModal /> */}
             </div>
         </>
     )

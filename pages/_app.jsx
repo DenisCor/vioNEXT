@@ -12,6 +12,8 @@ import { actions as demoAction } from "../store/demo";
 import '~/public/scss/plugins/owl-carousel/owl.carousel.scss';
 import "~/public/scss/style.scss";
 
+import ComingSoon from '../pages/pages/coming-soon'
+
 const WrappedApp = ({ Component, pageProps }) => {
     const store = useStore();
     useEffect(() => {
@@ -21,9 +23,7 @@ const WrappedApp = ({ Component, pageProps }) => {
     }, [])
 
     return (
-        <>
-            <h4>Hello World</h4>
-        </>
+    <ComingSoon/>
         // <Provider store={store}>
         //     <PersistGate
         //         persistor={store.__persistor}
@@ -48,7 +48,7 @@ const WrappedApp = ({ Component, pageProps }) => {
         //             <meta name="msapplication-TileColor" content="#cc9966" />
         //             <meta name="msapplication-config" content="images/icons/browserconfig.xml" />
         //             <meta name="theme-color" content="#ffffff" />
-        //             <title>Molla - React eCommerce Template</title>
+        //             <title>Violette - Ecommerce Store</title>
         //             <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png" />
         //             <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png" />
         //             <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png" />
