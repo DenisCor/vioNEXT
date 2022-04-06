@@ -24,7 +24,7 @@
 		max-width: 496px;
 	}
 
-	&.text-center, {
+	&.text-center{
 		p {
 			max-width: 680px;
 			margin-left: auto;
@@ -78,9 +78,9 @@
 }
 
 .soon-title {
-	font-weight: 100;
+	font-weight: 400;
+	letter-spacing: -.025em;
 	margin-bottom: 4.2rem;
-	color: rgb(79, 73, 93) ;
 }
 
 .coming-countdown {

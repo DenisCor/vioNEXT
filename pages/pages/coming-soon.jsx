@@ -11,12 +11,12 @@ function ComingSoon () {
                     <div className="col-md-9 col-lg-8">
                         <div className="soon-content text-center">
                             <div className="soon-content-wrapper">
-                                <img src="images/vio-logo.png" alt="Logo" className="soon-logo mx-auto" style={{width:'150px'}}/>
+                                <img src="images/vio-logo.png" alt="Logo" className="soon-logo mx-auto" style={{width:'100px'}}/>
 
                                 <h1 className="soon-title">Coming Soon</h1>
 
                                 <div className="coming-countdown countdown-separator">
-                                    <Countdown date={ `2022-05-08T01:02:03` } renderer={ rendererOne } />
+                                    <Countdown date={ `2022-09-01T01:02:03` } renderer={ rendererOne } />
                                 </div>
 
                                 <hr className="mt-2 mb-3 mt-md-3" />
