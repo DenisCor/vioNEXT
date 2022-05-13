@@ -22,7 +22,7 @@ function Header () {
                             </button>
 
                             <ALink href="/" className="logo">
-                                <img src="images/logo.png" alt="Molla Logo" width={ 82 } height={ 22 } />
+                                <img src="images/logo.png" alt="Violette Logo" width={ 80 } height={ 20 } />
                             </ALink>
                         </div>
 

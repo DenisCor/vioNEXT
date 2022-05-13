@@ -23,7 +23,7 @@ const WrappedApp = ({ Component, pageProps }) => {
     }, [])
 
     return (
-    <ComingSoon/>
+     <ComingSoon/>
         // <Provider store={store}>
         //     <PersistGate
         //         persistor={store.__persistor}
@@ -39,16 +39,16 @@ const WrappedApp = ({ Component, pageProps }) => {
 
         //         <Helmet>
         //             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        //             <meta name="keywords" content="Molla React Template" />
-        //             <meta name="description" content="Molla –  eCommerce React Template is a multi-use React template. It is designed to go well with multi-purpose websites."
+        //             <meta name="keywords" content="Violette Store" />
+        //             <meta name="description" content="Violette –  eCommerce React Template is a multi-use React template. It is designed to go well with multi-purpose websites."
         //             />
         //             <meta name="author" content="d-themes" />
-        //             <meta name="apple-mobile-web-app-title" content="Molla" />
-        //             <meta name="application-name" content="Molla React eCommerce Template" />
+        //             <meta name="apple-mobile-web-app-title" content="Violette" />
+        //             <meta name="application-name" content="Violette Store" />
         //             <meta name="msapplication-TileColor" content="#cc9966" />
         //             <meta name="msapplication-config" content="images/icons/browserconfig.xml" />
         //             <meta name="theme-color" content="#ffffff" />
-        //             <title>Violette - Ecommerce Store</title>
+        //             <title>Violette Store</title>
         //             <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png" />
         //             <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png" />
         //             <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png" />

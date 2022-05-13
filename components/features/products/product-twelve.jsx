@@ -170,7 +170,7 @@ function ProductTwelve ( props ) {
                                         <i className="icon-long-arrow-right"></i>
                                     </ALink>
                                     :
-                                    <button className="btn-product btn-cart" onClick={ onCartClick }>
+                                    <button className="btn-product btn-cart" onClick={ onCartClick } >
                                         <span>add to cart</span>
                                     </button>
                             }

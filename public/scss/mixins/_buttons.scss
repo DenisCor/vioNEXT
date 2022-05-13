@@ -1,5 +1,4 @@
 // Button mixins - variants
-
 @mixin button-variant(
   $color, $background, $border, 
   $color-hover: $color, $hover-background: lighten( $background, 6% ), 

@@ -5,11 +5,10 @@ import { useState, useEffect, useRef } from 'react';
 import SlideToggle from 'react-slide-toggle';
 import InputRange from 'react-input-range';
 import 'react-input-range/lib/css/index.css';
-
 import ALink from '~/components/features/alink';
-
 import IntroSlider from '~/components/partials/home/intro-slider';
 import ProductTwelve from "~/components/features/products/product-twelve";
+// import ProductNine from "~/components/features/products/product-nine";
 import NewsletterModal from "~/components/features/modals/newsletter-modal";
 
 import withApollo from '~/server/apollo';
@@ -390,7 +389,7 @@ function Home () {
                                                                 <ALink href={ { pathname: router.pathname, query: { ...query, minPrice: priceRange.min, maxPrice: priceRange.max, page: 1 } } } className="pr-2" scroll={ false }>Filter</ALink>
                                                             </div>
 
-                                                            <div className="price-slider">
+                                                            <div className="price-slider" style={{border:'2px solid red'}}>
                                                                 <InputRange
                                                                     formatLabel={ value => `$${value}` }
                                                                     maxValue={ 1000 }
